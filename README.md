@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **a React calculator**
 
-- 🌱 I’m currently learning **ES6**
+- 🌱 I’m currently learning **React**
 
 - 💬 Ask me about **Studying at [Microverse](https://www.microverse.org/), English Language, Ruby on Rails, Sass**
 

@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/__joeburke" target="blank"><img src="https://img.shields.io/twitter/follow/__joeburke?logo=twitter&style=for-the-badge" alt="__joeburke" /></a> </p>
 
-- 🔭 I’m currently working on [my JavaScript Capstone](https://github.com/Joseph-Burke/Robbin-Hoodz/tree/feature/working_branch)
+- 🔭 I’m currently working on **a React calculator**
 
 - 🌱 I’m currently learning **ES6**
 

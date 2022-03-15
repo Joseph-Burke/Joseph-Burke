@@ -1,32 +1,45 @@
 // Libraries
 import Mustache from 'mustache'
 import fs from 'fs'
+import axios from 'axios'
 
 // Constants
-const MUSTACHE_MAIN_DIR = './main.mustache';
+import { 
+  JB_GITHUB_API_URL as apiUrl,
+  MUSTACHE_PATH as mustache_path
+} from './constants.js'
 
 // Variables
 let DATA = {
-  name: 'Thomas',
-  date: new Date().toLocaleDateString('en-GB', {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric',
-    timeZoneName: 'short',
-    timeZone: 'Europe/Stockholm',
-  }),
-};
-``
-// 
-const generateReadMe = () => {
-  fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
-    if (err) throw err;
-
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync('README.md', output);
-  });
+  commits: {
+    counts: {
+      daily: 6,
+      weekly: 15,
+      monthly: 100
+    }
+  }
 }
 
-generateReadMe();
+// Script
+const fetchData = async () => {
+  const data = axios.get(apiUrl, { per_page: 100 })
+  .then(json => console.log(json.data.length))
+  // .then(json => console.log(Object.keys(json)))
+// .then(response => response.json())
+// .then(json => console.log(json))
+
+}
+
+fetchData()
+
+
+// const generateReadMe = () => {
+//   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
+//     if (err) throw err;
+
+//     const output = Mustache.render(data.toString(), DATA);
+//     fs.writeFileSync('README.md', output);
+//   });
+// }
+
+// generateReadMe();

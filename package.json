@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "axios": "^0.26.1",
     "mustache": "^4.2.0"
   }
 }

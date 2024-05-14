@@ -1,14 +1,16 @@
 <h1 align="center">Joe Burke</h1>
 <h3 align="center">A Full-Stack Rails Developer</h3>
 
-<img 
-  align="center"
-  src="https://avatars.githubusercontent.com/u/56026099?v=4"
-  alt="Joe Burke's Professional Portrait"
-  size="192"
-  height="192"
-  width="192"
-/>
+<div align="middle">
+  <img 
+    align="center"
+    src="https://avatars.githubusercontent.com/u/56026099?v=4"
+    alt="Joe Burke's Professional Portrait"
+    size="192"
+    height="192"
+    width="192"
+  />
+</div>
 
 <h3>Too Long; Didn't Read</h3>
 My name is Joe, I'm a Rails Dev from the UK with 2 years of experience looking for a new role based in Berlin.

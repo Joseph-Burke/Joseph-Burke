@@ -2,12 +2,12 @@
 <h3 align="center">A Full-Stack Rails Developer</h3>
 
 <img 
+  align="center"
   src="https://avatars.githubusercontent.com/u/56026099?v=4"
   alt="Joe Burke's Professional Portrait"
   size="192"
   height="192"
   width="192"
-  align="center"
 />
 
 <h3>Too Long; Didn't Read</h3>
